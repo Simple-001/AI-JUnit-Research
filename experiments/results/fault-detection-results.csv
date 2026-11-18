@@ -1,0 +1,8 @@
+Fault_ID,Method,Fault_Description,Basic_Tests,Basic_Failures,Basic_Errors,Basic_Detected,Structured_Tests,Structured_Failures,Structured_Errors,Structured_Detected
+F01,MathUtils.add,Addition replaced with subtraction,86,3,0,Yes,156,5,0,Yes
+F02,MathUtils.divide,Division replaced with multiplication,86,3,0,Yes,156,7,0,Yes
+F03,MathUtils.factorial,Upper boundary incorrectly rejects 20,86,0,1,Yes,156,0,1,Yes
+F04,ValidationUtils.isValidAge,Lower age boundary changed from 18 to 17,86,1,0,Yes,156,1,0,Yes
+F05,ValidationUtils.isLeapYear,Century exception removed from leap-year calculation,86,1,0,Yes,156,2,0,Yes
+F06,ArrayUtils.findMaximum,Maximum initialized to zero instead of first element,86,1,0,Yes,156,1,0,Yes
+
